@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    max-width: 960px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 3em;
+    letter-spacing: 0.02em;
+    padding-top: 1em;
+}
+
+h2 {
+    font-size: 1.7em;
+    padding-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+h4 {
+    font-size: 1em;
+    padding-bottom: 0.2em;
+    font-weight: 650;
+    margin-bottom: 0.3em;
+}
+
+main { 
+    display: grid;
+    grid-template-columns: 63% 37%;
+    margin-top: 2.5em;
+}
+
+
+header {
+    text-align: left;
+    margin: auto 4em;
+}
+
+section {
+    margin: auto 2em 3em 4em;
+}
+
+.bubble {
+    margin: auto 2em 3em 4em;
+    background-color: #f0f0f0;
+    padding-top: 0.5em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-bottom: 2em;
+    border-radius: 2em;
+  }
+
+.meow {
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    padding-top: 0.3em;
+    padding-bottom: 0.4em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 1em;
+    font-size: 1.7em;
+}
+
+i {
+    margin-right: .5em;
+}
+
+p {
+    margin: .2em auto
+}
+
+.space {
+    margin-left: 20px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+}
+
+h1, h2, h3 {
+    font-weight: 500;
+    margin-bottom: 0;
+}
