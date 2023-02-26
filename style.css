@@ -3,6 +3,9 @@ body {
     font-size: 12px;
     max-width: 960px;
     margin: auto;
+    background-image: url('a.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
@@ -68,6 +71,10 @@ section {
     font-size: 1.7em;
 }
 
+.meow:hover {
+    background-color: rgb(74, 4, 97);
+}
+
 i {
     margin-right: .5em;
 }
@@ -104,4 +111,12 @@ li:before {
     display: inline-block;
     width: 1em;
     margin-left: -1em;
+}
+
+a:hover {
+    color: rgb(74, 4, 97);
+  }
+
+a{
+    color: rgb(0, 0, 0);
 }
