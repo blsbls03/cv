@@ -14,6 +14,7 @@ h1 {
 h2 {
     font-size: 1.7em;
     padding-bottom: 0.5em;
+    margin-top: 0.3em;
 }
 
 h3 {
@@ -29,8 +30,8 @@ h4 {
 
 main { 
     display: grid;
-    grid-template-columns: 63% 37%;
-    margin-top: 2.5em;
+    grid-template-columns: 60% 40%;
+    margin-top: 0em;
 }
 
 
@@ -40,16 +41,17 @@ header {
 }
 
 section {
-    margin: auto 2em 3em 4em;
+    margin: auto 2em 3em 2em;
+    margin-top: 0em;
 }
 
 .bubble {
     margin: auto 2em 3em 4em;
     background-color: #f0f0f0;
-    padding-top: 0.5em;
+    padding-top: 1em;
     padding-left: 2.5em;
     padding-right: 2.5em;
-    padding-bottom: 2em;
+    padding-bottom: 2.3em;
     border-radius: 2em;
   }
 
@@ -80,10 +82,11 @@ p {
 
 hr {
     border: none;
-    height: 1px;
+    height: 0em;
 }
 
 h1, h2, h3 {
     font-weight: 500;
     margin-bottom: 0;
 }
+
